@@ -1,0 +1,46 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+body {
+  background-color: rgb(244, 205, 211);
+  padding: 20px;
+}
+/*********** font ************/
+
+h1 {
+  color: blueviolet;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+p {
+  margin-block: 10px;
+}
+img {
+  margin-block: 10px;
+}
+h2 {
+  color: blue;
+  font-family: "Times New Roman", Times, serif;
+  margin-block: 10px;
+}
+h3 {
+  font-family: "montserratbold";
+  src:
+    url("montserrat-bold-webfont.woff2") format("woff2"),
+    url("montserrat-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  color: green;
+  margin-block: 10px;
+}
